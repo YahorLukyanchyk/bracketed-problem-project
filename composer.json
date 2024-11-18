@@ -1,0 +1,16 @@
+{
+    "name": "yahor-lukyanchyk/bracketed-problem-project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "YahorLukyanchyk\\BracketedProblemProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yahor Lukyanchyk",
+            "email": "yahorlukyanchyk@gmail.com"
+        }
+    ],
+    "require": {}
+}
