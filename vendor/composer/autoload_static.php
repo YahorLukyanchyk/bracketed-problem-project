@@ -7,20 +7,29 @@ namespace Composer\Autoload;
 class ComposerStaticInitf010f3768ecad2fdea4ed73bb6062dc5
 {
     public static $prefixLengthsPsr4 = array (
-        'Y' => 
+        'B' => 
         array (
-            'YahorLukyanchyk\\BracketedProblemProject\\' => 40,
+            'BracketsChecker\\' => 16,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'YahorLukyanchyk\\BracketedProblemProject\\' => 
+        'BracketsChecker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lukyanchyk/bracketed-problem-library/src',
+        ),
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
+        'BracketsChecker\\BracketsChecker' => __DIR__ . '/..' . '/lukyanchyk/bracketed-problem-library/src/BracketsChecker.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
