@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'YahorLukyanchyk\\BracketedProblemProject\\' => array($baseDir . '/src'),
+    'BracketsChecker\\' => array($vendorDir . '/lukyanchyk/bracketed-problem-library/src'),
+    'App\\' => array($baseDir . '/src'),
 );

@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'BracketsChecker\\BracketsChecker' => $vendorDir . '/lukyanchyk/bracketed-problem-library/src/BracketsChecker.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );
