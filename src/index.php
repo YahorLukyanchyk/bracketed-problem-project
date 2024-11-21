@@ -7,9 +7,16 @@ require 'vendor/autoload.php';
 use BracketsChecker\BracketsChecker;
 
 echo "Enter your string: ";
-$row = trim(fgets(STDIN, 1024));
+$bracketSequence = trim(fgets(STDIN, 1024));
 
-echo "Enter your path to file (started from root directory): ";
-$filePath = __DIR__ . '\/../' . trim(fgets(STDIN, 1024));
+$service = new BracketsChecker;
 
-BracketsChecker::index($row, $filePath);
+$result = $service->check($bracketSequence);
+
+if (!$result) {
+    $resultMessage = "Rows are different!\n";
+} else {
+    $resultMessage = "Rows are correct!\n";
+}
+
+echo $resultMessage;
