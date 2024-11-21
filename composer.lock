@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/YahorLukyanchyk/bracketed-problem-library.git",
-                "reference": "f7027595f25fa17f7a3c210b3e7503e7b6438a73"
+                "reference": "4a62e9ff29b8b47a2a0f86e2c829cf1a5634342c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/YahorLukyanchyk/bracketed-problem-library/zipball/f7027595f25fa17f7a3c210b3e7503e7b6438a73",
-                "reference": "f7027595f25fa17f7a3c210b3e7503e7b6438a73",
+                "url": "https://api.github.com/repos/YahorLukyanchyk/bracketed-problem-library/zipball/4a62e9ff29b8b47a2a0f86e2c829cf1a5634342c",
+                "reference": "4a62e9ff29b8b47a2a0f86e2c829cf1a5634342c",
                 "shasum": ""
             },
             "require": {
@@ -27,6 +27,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
+                    "Tests\\": "tests/",
                     "BracketsChecker\\": "src/"
                 },
                 "classmap": [
@@ -45,7 +46,7 @@
                 "issues": "https://github.com/YahorLukyanchyk/bracketed-problem-library/issues",
                 "source": "https://github.com/YahorLukyanchyk/bracketed-problem-library/tree/main"
             },
-            "time": "2024-11-19T08:21:04+00:00"
+            "time": "2024-11-21T11:49:07+00:00"
         }
     ],
     "packages-dev": [],
